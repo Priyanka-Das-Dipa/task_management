@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-
+import logo2 from "../../assets/images/logo2.png";
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -37,7 +37,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <div className="w-32">
+            <img src={logo2} alt="" />
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -55,6 +57,9 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link to="login">Login</Link>
         </div>
+      </div>
+      <div>
+      
       </div>
     </div>
   );

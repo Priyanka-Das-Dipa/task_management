@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../Home/Home";
 import Main from "../layout/Main";
-import Login from "../Login";
-import Register from "../Register";
+import Register from "../components/pages/Register";
+import Login from "../components/pages/Login";
 
 export const router = createBrowserRouter([
   {
