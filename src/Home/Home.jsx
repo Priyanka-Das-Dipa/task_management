@@ -2,7 +2,7 @@
 
 const Home = () => {
     return (
-        <div>
+        <div className="max-h-screen text-5xl">
             <h2>This is home</h2>
         </div>
     );
